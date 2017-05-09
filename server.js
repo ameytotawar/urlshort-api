@@ -12,6 +12,6 @@ app.use(express.static(path.join(__dirname,'public')));
 
 app.use('/api', routes);
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!');
+app.listen(app.get('port'), function () {
+  console.log('Example app listening on port ' + app.get('port'));
 })
