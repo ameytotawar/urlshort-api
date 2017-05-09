@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "time-stamp": "^1.0.1"
   }
 }
