@@ -5,6 +5,10 @@ var ctrlTime = require("../controllers/time.controllers.js");
 
 router
     // .route('/:dateID')
-    .get('/whoami',ctrlTime.getAll);
+    .get('/new/*?',ctrlTime.getSUrl);
+    
+router
+    // .route('/:dateID')
+    .get('/:id',ctrlTime.getID);    
     
 module.exports = router;    
