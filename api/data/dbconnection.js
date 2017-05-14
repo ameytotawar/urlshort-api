@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var dburl = 'mongodb://ameytotawar:amey1234@ds141401.mlab.com:41401/meanamey';
+var dburl = 'mongodb://username:pass@ds141401.mlab.com:41401/meanamey';
 
 var _connection = null;
 
